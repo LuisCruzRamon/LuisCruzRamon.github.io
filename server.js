@@ -1,5 +1,5 @@
 const mongo = require('mongodb').MongoClient;
-const client = require('socket.io').listen(4000).sockets;
+const client = require('socket.io').listen(80).sockets;
 
 // Connect to mongo
 // mongo.connect('mongodb://lan:HateSweetHate!@cluster0-shard-00-00.ioorb.mongodb.net:27017,cluster0-shard-00-01.ioorb.mongodb.net:27017,cluster0-shard-00-02.ioorb.mongodb.net:27017/LuisDB?ssl=true&replicaSet=atlas-l8jjoh-shard-0&authSource=admin&retryWrites=true&w=majority', function(err, db){
